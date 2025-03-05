@@ -79,6 +79,11 @@ img {
   margin-bottom: var(--mb-4);
   text-align: center;
 }
+.work__container h4{
+  color: black;
+  padding: 10px 15px ;
+  font-weight: 600;
+}
 .section-title::after {
   position: absolute;
   content: "";
@@ -122,6 +127,11 @@ img {
   align-items: center;
   font-weight: var(--font-semi);
 }
+.footer__social a{
+  color:white;
+  /* margin: 7px; */
+}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
